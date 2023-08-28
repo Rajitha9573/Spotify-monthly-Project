@@ -1,24 +1,50 @@
+.main-section{
+    display:flex;
+
+}
 .nav-bar{
-    width:400px;
+    width:300px;
+    height:1000px;
     background-color: black;
 }
 .spotify-logo>img{
     padding:30px;
     width:200px;
 }
-.search-menu{
+.search-menu,.Play-list,.categeries,.install-app{
     color:white;
     padding:30px;
-
-    
-
 }
-.home-card,.search-card,.library-card{
+
+
+.home-card,.search-card,.library-card,.book-list,.my-list{
     
     padding-bottom:20px;
-    padding-left: px;
-    
 }
-.home-img{
-    padding:
+
+
+.book-list>img{
+   background-color:white;
+   margin-right: 10px;
+}
+.install-app>img{
+    margin-right: 10px;
+}
+.second-page{
+    width:100vw;
+    background-color:#121212 ;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    padding:20px;
+}
+  
+.angel-girl{
+    padding-right:10px;
+}
+.optional-sec{
+    color:white;
+}
+.good-morning{
+    color:white;
 }
