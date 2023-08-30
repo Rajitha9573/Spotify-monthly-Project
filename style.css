@@ -1,5 +1,6 @@
 .main-section{
     display:flex;
+    
 
 }
 .nav-bar{
@@ -7,30 +8,36 @@
     height:680px;
     background-color: black;
     overflow-y:scroll;
+    padding:25px;
     
 }
 .spotify-logo>img{
-    padding:30px;
+    padding:15px;
     width:200px;
 }
-.search-menu,.Play-list,.categeries,.install-app{
+
+
+
+.library-card>a{
+    text-decoration: none;
     color:white;
-    padding:30px;
+    padding: 5px;;
 }
-
-
-.home-card,.search-card,.library-card,.book-list,.my-list{
+.home-card,.search-menu,.library-card,.book-list,.my-list,.install-app,.categeries{
     
-    padding-bottom:20px;
+    padding-bottom:19px;
+    color:white;
 }
-
-
+.play-list,.categeries{
+   padding-bottom:20px;
+}
 .book-list>img{
    background-color:white;
    margin-right: 10px;
 }
 .install-app>img{
     margin-right: 10px;
+    color:white;
 }
 .second-page{
     width:100vw;

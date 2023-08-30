@@ -1,0 +1,139 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+.main-section{
+    display:flex;
+    width:100vw;
+    
+
+}
+.nav-bar{
+    width:310px;
+    height:600px;
+    background-color: black;
+    overflow-y: scroll;
+    padding:25px;
+    
+}
+.spotify-logo{
+    padding:10px;
+    width:200px;
+}
+
+
+
+.library-card>a{
+    text-decoration: none;
+    color:white;
+    padding: 5px;;
+}
+.home-card,.search-menu,.library-card,.book-list{
+    
+    padding-bottom:19px;
+    color:white;
+}
+.play-list{
+   padding-bottom:20px;
+}
+.book-list>img{
+   background-color:white;
+   margin-right: 10px;
+}
+.girl>img{
+    width:cover;
+    padding:none;
+}
+.second-page{
+    width:100vw;
+    height:650px;
+    overflow-y:scroll;
+}
+.subpage{
+   
+    height:320px;
+    display:flex;
+    background-color: #90AEA7;
+    
+}
+.picture{
+    padding-top: 30px;
+}
+.paragraph{
+    padding-top:150px;
+}
+.playlist{
+Font-family:Circular Std;
+font-size: 16px;
+font-weight: 500;
+color:white;
+}
+.pop-right{
+font-family: Circular Std;
+font-size: 75px;
+font-weight: 900;
+color: #FFFFFF;
+}
+.lorem{
+    font-family: Circular Std;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+color: #FFFFFF;
+}
+.liking{
+    font-family: Circular Std;
+font-size: 15px;
+font-weight: 400;
+line-height: 19px;
+color: #FFFFFF;
+}
+.spotify{
+    font-family: Circular Std;
+font-size: 15px;
+font-weight: 700;
+line-height: 22px;
+}
+.symbol{
+    background-color: #242242;
+    display:flex;
+}
+.symbol,img{
+    padding:10px;
+}
+.music-list{
+    display: flex;
+    justify-content: space-between;
+    font-family: Circular Std;
+    font-size: 12px;
+    font-weight: 400;
+     line-height: 15px;
+     color:#FFFFFF;
+     background-color: #2d176d;
+     padding:5px;
+}
+ .songs{
+    width:;
+    height:60px;
+    display:flex;
+    justify-content: space-between;
+    background-color: #000000;
+    padding:5px;
+    color:#FFFFFF;
+    border-radius: 5px;
+} 
+.chalo{
+    display:flex;
+}
+h4{
+    padding-top:28px;
+}
+.date{
+    padding-right: 200px;;
+}
+.third-section{
+    background-color:black;
+    width:100vw;
+    display:flex;
+    justify-content: center;
+}
